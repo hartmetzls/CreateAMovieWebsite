@@ -1,6 +1,7 @@
 import webbrowser
 
-class Movie ():
+
+class Movie(object): #object was a recommendation given by my tutor
     """This class provides a way to store movie-related information."""
 
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
@@ -13,6 +14,4 @@ class Movie ():
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
 
-# Things I Learned:
-# VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-# this is a class variable. In Python, all classes come with some pre-existing class variables
+
