@@ -40,7 +40,7 @@ main_page_head = '''
             padding-top: 20px;
             font-family: "Georgia";
         }
-        .movie-tile:hover {
+        .movie-tile:hover { /*shows the synopsis defined in entertainment_center.py as hover text*/
             background-color: #EEE;
             cursor: pointer;
         }
